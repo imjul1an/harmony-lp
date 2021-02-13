@@ -1,0 +1,232 @@
+html,
+body {
+  font-family: "Apercu", sans-serif;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hrmny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hrmny h1 {
+  color: #fff;
+  font-size: 4rem;
+
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.hrmny h2 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_regular.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_regular_italic.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular_italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular_italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular_italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular_italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_regular_italic.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: bolder;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_medium.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: bolder;
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_medium_italic.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium_italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium_italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium_italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium_italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_medium_italic.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: lighter;
+  font-weight: 200;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_light.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_light.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_light.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_light.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_light.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_light.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: lighter;
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_light_italic.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_light_italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_light_italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_light_italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_light_italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_light_italic.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_bold.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: bold;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://static.headspace.com/fonts/apercu/apercu_bold_italic.eot"),
+    /* IE9 Compat Modes */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold_italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold_italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold_italic.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold_italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("https://static.headspace.com/fonts/apercu/apercu_bold_italic.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
